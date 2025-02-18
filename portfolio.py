@@ -48,10 +48,10 @@ dados_conceitos = {
 }
     #dicionário de cores, comum em python
     cores_map=dict(
-        java ='red',
+        java ='blue',
         python = 'green',
         sql = 'yellow',
-        golang = 'blue',
+        golang = 'red',
         javascript = 'pink'
     )
     app = dash.Dash(__name__)
