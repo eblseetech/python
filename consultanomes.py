@@ -41,7 +41,7 @@ def criar_grafico():
 
 app.layout = html.Div([
     html.H1("Frequência de Nomes ao Longo dos Períodos"),
-    dcc.Graph(id='grafico', figure=criar_grafico())
+    dcc.Graph(id='grafico', figure=consultar_nomes())
 ])
 
 if __name__ == '__main__':
